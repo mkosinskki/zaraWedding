@@ -2,12 +2,14 @@
   <section id="footer" class="bg-charcoal">
     <div class="container max-w-6xl mx-auto flex flex-col px-4 py-4">
       <!-- logo + social -->
-      <div class="flex flex-col md:flex-row border-b-2 border-bg pb-8 md:pb-2">
+      <div
+        class="flex flex-col space-y-6 md:space-y-0 md:flex-row border-b-2 border-bg pt-4 pb-8 md:py-8"
+      >
         <div class="md:w-1/2 flex items-center justify-center md:justify-start">
           <img
             src="../assets/logoWhite.svg"
             alt="zara wedding logo"
-            class="h-30 md:h-30 w-auto hover:scale-110 duration-200"
+            class="h-30 w-auto -my-8 hover:scale-110 duration-200"
           />
         </div>
 
