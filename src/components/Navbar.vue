@@ -1,12 +1,12 @@
 <template>
   <nav class="w-full sticky top-0 bg-bg shadow-md z-50">
     <div class="container max-w-6xl mx-auto px-5 py-5 flex items-center justify-between">
-      <div class="z-50">
-        <a href="#hero">
+      <div class="z-50 flex items-center">
+        <a href="#home" class="group relative h-12 w-32 flex items-center justify-center">
           <img
             src="../assets/logo.svg"
             alt="zara wedding logo"
-            class="h-30 w-auto -my-8 hover:scale-110 duration-200"
+            class="absolute h-30 w-auto pointer-events-none transition-transform duration-200 group-hover:scale-110"
           />
         </a>
       </div>
