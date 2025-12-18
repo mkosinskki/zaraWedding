@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import Home from '../src/views/Home.vue'
 import AboutUs from './views/AboutUs.vue'
+import Opinions from './views/Opinions.vue'
 import Navbar from '../src/components/Navbar.vue'
 import Footer from '../src/components/Footer.vue'
 </script>
@@ -12,6 +13,8 @@ import Footer from '../src/components/Footer.vue'
   <Home />
 
   <AboutUs />
+
+  <Opinions />
 
   <Footer />
 

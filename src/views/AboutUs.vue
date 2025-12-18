@@ -1,11 +1,8 @@
 <template>
-  <section id="about" class="bg-bg py-16 md:py-28 scroll-mt-12 md:scroll-mt-6">
-    <div class="container mx-auto max-w-7xl flex flex-col space-y-12 md:space-y-0 md:flex-row px-6">
+  <section id="about" class="bg-bg py-16 px-6 md:py-28 scroll-mt-12 md:scroll-mt-6">
+    <div class="container mx-auto max-w-7xl flex flex-col space-y-12 md:space-y-0 md:flex-row">
       <div class="md:w-1/2 flex items-center justify-center">
-        <img
-          src="../assets/aboutUsPhoto.jpg"
-          class="w-lg h-auto rounded-full border-3 border-navy"
-        />
+        <img src="../assets/aboutUsPhoto.jpg" class="w-lg h-auto rounded-full" />
       </div>
 
       <div class="md:w-1/2 max-w-xl flex flex-col items-center justify-center space-y-16 md:pl-12">
