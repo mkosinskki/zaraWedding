@@ -1,5 +1,5 @@
 <template>
-  <section id="opinions" class="bg-navy py-16 px-6 overflow-hidden scroll-mt-12 md:scroll-mt-6">
+  <section id="opinions" class="bg-navy py-16 px-6 overflow-hidden scroll-mt-12">
     <div class="container mx-auto max-w-7xl">
       <h2 class="text-bg text-4xl md:text-5xl font-playfair italic text-center mb-16">
         Opinie naszych klientów

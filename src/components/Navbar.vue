@@ -79,7 +79,7 @@ const toggleMenu = () => {
 
 const menuItems = [
   { name: 'Home', path: '#home' },
-  { name: 'Oferta', path: '#ofert' },
+  { name: 'Oferta', path: '#offer' },
   { name: 'O nas', path: '#about' },
   { name: 'Opinie', path: '#opinions' },
   { name: 'Kontakt', path: '#contact' },
