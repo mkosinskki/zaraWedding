@@ -6,11 +6,13 @@
         class="flex flex-col space-y-6 md:space-y-0 md:flex-row border-b-2 border-bg pt-4 pb-8 md:py-8"
       >
         <div class="md:w-1/2 flex items-center justify-center md:justify-start">
-          <img
-            src="../assets/logoWhite.svg"
-            alt="zara wedding logo"
-            class="h-30 w-auto -my-8 hover:scale-110 duration-200"
-          />
+          <a href="#home">
+            <img
+              src="../assets/logoWhite.svg"
+              alt="zara wedding logo"
+              class="h-30 w-auto -my-8 hover:scale-110 duration-200"
+            />
+          </a>
         </div>
 
         <div
@@ -49,6 +51,7 @@
           &copy; Copyright {{ currentYear }}. Stworzone przez:
           <a
             href="https://www.marcinkosinski.dev/"
+            target="_blank"
             class="underline hover:text-[#c1f2b0] transition-colors underline-offset-2"
             >Marcin Kosiński</a
           >.
