@@ -7,11 +7,7 @@
       >
         <div class="md:w-1/2 flex items-center justify-center md:justify-start">
           <a href="#home">
-            <img
-              src="../assets/logoWhite.svg"
-              alt="zara wedding logo"
-              class="h-30 w-auto -my-8 hover:scale-110 duration-200"
-            />
+            <img src="../assets/logoWhite.svg" alt="zara wedding logo" class="h-30 w-auto -my-8" />
           </a>
         </div>
 

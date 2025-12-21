@@ -1,5 +1,5 @@
 <template>
-  <section id="offer" class="relative bg-[#F5EADA] py-16 px-6">
+  <section id="offer" class="relative bg-filler py-12 scroll-mt-14 md:scroll-mt-10 md:py-24 px-6">
     <div class="absolute inset-0 pointer-events-none opacity-60">
       <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
         <filter id="noise">
@@ -23,14 +23,14 @@
     </div>
 
     <div
-      class="relative container max-w-6xl mx-auto flex flex-col md:flex-row min-h-screen items-center justify-center"
+      class="relative container max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center"
     >
       <div class="flex flex-col items-start space-y-12">
         <div class="flex flex-col text-center space-y-8">
-          <h2 class="font-playfair text-navy font-bold italic text-4xl md:text-5xl">
+          <h2 class="font-playfair text-charcoal font-bold italic text-4xl md:text-5xl">
             Oferta nagrań w pionie
           </h2>
-          <p class="font-source text-gold text-lg md:text-xl italic">
+          <p class="font-source text-navy text-lg md:text-xl italic">
             Dynamiczne rolki i krótki teledysk
           </p>
         </div>
@@ -44,15 +44,15 @@
       </div>
 
       <div
-        class="block w-full h-0.5 my-20 md:w-0.5 md:h-auto md:m-20 md:self-stretch bg-gold/60"
+        class="block w-full h-0.5 my-20 md:w-0.5 md:h-auto md:mx-20 md:-my-8 md:self-stretch bg-navy/80"
       ></div>
 
       <div class="flex flex-col items-start space-y-12">
         <div class="flex flex-col text-center space-y-6">
-          <h2 class="font-playfair text-navy font-bold italic text-4xl md:text-5xl">
+          <h2 class="font-playfair text-charcoal font-bold italic text-4xl md:text-5xl">
             Oferta nagrań w poziomie
           </h2>
-          <p class="font-source text-gold text-lg md:text-xl italic">
+          <p class="font-source text-navy text-lg md:text-xl italic">
             Klasyczny teledysk nagrany telefonem, który pięknie odda klimat Waszego dnia.
           </p>
         </div>

@@ -6,7 +6,7 @@
           <img
             src="../assets/logo.svg"
             alt="zara wedding logo"
-            class="absolute h-30 w-auto pointer-events-none transition-transform duration-200 group-hover:scale-110"
+            class="absolute h-30 w-auto pointer-events-none transition-transform"
           />
         </a>
       </div>

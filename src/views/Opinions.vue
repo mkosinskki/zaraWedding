@@ -103,6 +103,20 @@ const onSwiperInit = (swiper) => {
 
 const opinions = [
   {
+    names: 'Karolina & Witold',
+    date: '04.2025',
+    text: [
+      'Bardzo dziękuję wam raz jeszcze za piękny teledysk i te wszystkie nagrane filmiki! Jest to super alternatywa dla tych którzy nie chcą długiego, kamerowanego filmu ślubnego i coś świeżego z mega nowoczesnym podejściem! Wszystkie filmiki są super, profesjonalne i szok, że nagrywane telefonem.',
+    ],
+  },
+  {
+    names: 'Karina & Krzysztof',
+    date: '06.2025',
+    text: [
+      'Wiktoria … jesteś mistrzynią…. Znowu się popłakaliśmy …. Dziękujemy rolki są cudne. Właśnie zaczynam oglądać powolutku. Utwierdzam się w przekonaniu że to była najlepsza decyzja dedykując się na Was, jeszcze raz dziękujemy!',
+    ],
+  },
+  {
     names: 'Patrycja & Dawid',
     date: '07.2025',
     text: [
@@ -110,24 +124,25 @@ const opinions = [
     ],
   },
   {
-    names: 'Kasia & Tomek',
-    date: '06.2025',
-    text: ['Niesamowite ujęcia! Jesteśmy pod wrażeniem montażu i profesjonalizmu.'],
-  },
-  {
     names: 'Aleksandra & Przemek',
     date: '09.2025',
     text: [
-      'Miesiąc po ślubie obejrzeliśmy też surowe nagrania, mega dziękujemy za ich udostępnienie, cudownie było zobaczyć wszystko ❤️ Nawet życzenia można usłyszeć drugi raz!',
-      'Na pewno będziemy sobie wracać do tych materiałów 🥺',
+      'Miesiąc po ślubie obejrzeliśmy też surowe nagrania, mega dziękujemy za ich udostępnienie, cudownie było zobaczyć wszystko. Nawet życzenia można usłyszeć drugi raz!',
       'Cały pierwszy taniec, wszystkie gry i zabawy, uśmialiśmy się do nie miara 😄',
     ],
   },
   {
-    names: 'Rozalia & Mateusz',
-    date: '09.2025',
+    names: 'Anna & Maciej',
+    date: '10.2025',
     text: [
-      'Obejrzeliśmy dziś już jak narazie same filmiki i są przecudowne!! Dobra robota 😍 bardzo dziękujemy!!',
+      'Teledysk bardzo nam się podoba! Wyszedł przepięknie i idealnie oddaje klimat naszego dnia. Jeszcze raz dziękujemy za współpracę!',
+    ],
+  },
+  {
+    names: 'Anna & Krzysztof',
+    date: '10.2025',
+    text: [
+      'Wszystko przebiegło po naszej myśli to był cudowny dzień, a rolki przepiękne jeszcze raz bardzo dziękujemy!',
     ],
   },
 ]
