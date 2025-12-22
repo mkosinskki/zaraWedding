@@ -10,7 +10,7 @@
           :modules="[SwiperNavigation, SwiperPagination, SwiperAutoplay]"
           :slides-per-view="1"
           :space-between="20"
-          :autoplay="{ delay: 5000, disableOnInteraction: false }"
+          :autoplay="{ delay: 8000, disableOnInteraction: false }"
           :loop="true"
           :navigation="{
             prevEl: prevBtn,
@@ -24,7 +24,7 @@
         >
           <swiper-slide v-for="(opinion, index) in opinions" :key="index" class="h-auto">
             <div
-              class="bg-filler rounded-lg p-8 shadow-xl border-2 border-gold h-full flex flex-col items-center text-justify font-source"
+              class="bg-filler rounded-lg p-8 shadow-xl h-full flex flex-col items-center text-justify font-source"
             >
               <h3 class="text-charcoal font-bold text-xl md:text-2xl pb-1.5 font-playfair">
                 {{ opinion.names }}
@@ -120,7 +120,7 @@ const opinions = [
     names: 'Patrycja & Dawid',
     date: '07.2025',
     text: [
-      'Bardzo dziękujemy za tak piękny i profesjonalny materiał 🥺🩵 jakość na najwyższym poziomie 🔥',
+      'Bardzo dziękujemy za tak piękny i profesjonalny materiał. Jakość na najwyższym poziomie',
     ],
   },
   {
@@ -128,7 +128,7 @@ const opinions = [
     date: '09.2025',
     text: [
       'Miesiąc po ślubie obejrzeliśmy też surowe nagrania, mega dziękujemy za ich udostępnienie, cudownie było zobaczyć wszystko. Nawet życzenia można usłyszeć drugi raz!',
-      'Cały pierwszy taniec, wszystkie gry i zabawy, uśmialiśmy się do nie miara 😄',
+      'Cały pierwszy taniec, wszystkie gry i zabawy, uśmialiśmy się do nie miara',
     ],
   },
   {
